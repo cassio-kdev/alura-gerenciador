@@ -25,7 +25,7 @@ public class AlteraEmpresaServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		System.out.println("AlteraEmpresaServlet");
 		String id = request.getParameter("id");
 		String nome = request.getParameter("nome");
 		String dataAberturaEmpresa = request.getParameter("data");
